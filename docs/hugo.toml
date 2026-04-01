@@ -8,7 +8,8 @@ title = 'create-claude-context CLI'
 
 [params]
   description = "A beautiful interactive CLI to quickly bootstrap Claude projects."
-  docs = "docs"
+  [params.docs]
+    pathName = "docs"
   
 [markup]
   [markup.goldmark.renderer]
