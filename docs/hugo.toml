@@ -1,4 +1,4 @@
-baseURL = 'https://example.github.io/claude-bs/'
+baseURL = 'https://madhurahuja.github.io/create-claude-context/'
 languageCode = 'en-us'
 title = 'create-claude-context CLI'
 theme = 'hugo-book'
