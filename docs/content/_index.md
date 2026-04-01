@@ -1,29 +1,20 @@
----
-title: "create-claude-context Documentation"
----
++++
+title = "create-claude-context"
+type = "docs"
++++
 
-Welcome to the official documentation for **create-claude-context**!
+# create-claude-context CLI
 
-## What is it?
-A beautiful, interactive CLI tool to quickly bootstrap Claude-supported projects with essential context markdown files based on Claude best practices. By generating `.claudeprompt` and `CLAUDE.md` files natively, you make your project context immediately understandable to Claude.
+A beautiful, interactive CLI tool to quickly bootstrap Claude-supported projects with essential context markdown files based on best practices. By generating `.claudeprompt` and `CLAUDE.md` files natively (as well as entire architectural layouts via Advanced Scaffolding), you make your project context immediately understandable to Claude.
 
-## Quick Start
+{{< columns >}} <!-- hugo-book shortcode -->
+## Why use this?
+Manually writing rules and structure context for Claude takes time and leads to inconsistencies across projects. This CLI does it for you intelligently and uniformly.
+<--->
+## What's included?
+- Advanced multi-level scaffolding
+- Native Claude Code `.claude` workspace integration
+- Support for React, Vue, Node, Python, etc.
+{{< /columns >}}
 
-You can run the CLI immediately using `npx` (no installation required):
-
-```bash
-npx create-claude-context
-```
-
-The interactive prompt will ask you for:
-1. **Your project name** (A directory will be created)
-2. **Your framework/environment** (React, Vue, Node.js, Python, or Other)
-3. **Scaffolding Complexity** 
-   - *Basic*: Just `CLAUDE.md`
-   - *Minimal Starter Set*: Includes `README.md`, `ARCHITECTURE.md`, `PROMPTS/`, `CONTEXT/`
-   - *Production-Grade*: Full suite including `SYSTEM_PROMPT.md`, `GUARDRAILS.md`, `AGENTS.md`, `TOOLS.md`, etc.
-   - *Portfolio AI*: Specific to AI portfolios (`PROFILE_CONTEXT.md`, etc.)
-   - *Claude Code Workspace*: Native scaffolding for Anthropic's new `claude` CLI with `.mcp.json`, `.claude/settings.json`, modular `skills/`, and Subagent routines.
-4. **General guidelines** (Whether to include an extra `.claudeprompt` file with interaction rules)
-
-It will then generate the specifically tailored suite of context files for your stack, making your intent perfectly understandable natively by Claude.
+Check out the [Installation]({{< relref "docs/installation.md" >}}) page to get started.

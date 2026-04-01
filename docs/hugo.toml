@@ -1,3 +1,12 @@
 baseURL = 'https://example.github.io/claude-bs/'
 languageCode = 'en-us'
 title = 'create-claude-context CLI'
+theme = 'hugo-book'
+
+[params]
+  BookTheme = 'auto'
+  BookLogo = ''
+  BookTitle = 'create-claude-context'
+  
+[markup.goldmark.renderer]
+  unsafe = true
