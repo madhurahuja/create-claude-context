@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" alt="CCC Logo" width="250" />
+  <img src="https://raw.githubusercontent.com/madhurahuja/create-claude-context/main/logo.png" alt="CCC Logo" width="250" />
 </p>
 
 # create-claude-context
