@@ -1,6 +1,9 @@
 {
-  "name": "create-claude-context",
+  "name": "@madhurahuja/create-claude-context",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Bootstrap Claude-supported projects with essential context markdown files",
   "main": "dist/index.js",
   "type": "module",
