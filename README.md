@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/madhurahuja/create-claude-context/main/logo.png" alt="create-code-context logo" width="250" />
+</p>
+
 # create-code-context
 
 Interactive CLI to scaffold AI context for multiple LLM providers.
